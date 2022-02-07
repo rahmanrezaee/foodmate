@@ -94,9 +94,6 @@ public class AdapterCategory  extends RecyclerView.Adapter<RecyclerView.ViewHold
                     "fonts/font.ttf");
             txtView_title.setTypeface(face);
 
-
-
-
         }
     }
 }
