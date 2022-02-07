@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_1">#BA53CE</color>
+    <color name="blue">#88bef5</color>
+    <color name="pink">#f469a9</color>
+    <color name="dairy">#FFCCCD</color>
+    <color name="fruit">#FF7272</color>
+    <color name="meat">#FF9B6A</color>
+    <color name="vegetables">#8B9A46</color>
+    <color name="spices">#F47340</color>
+    <color name="ice_cream">#FFCCCD</color>
+    <color name="dried_fruits">#FFD371</color>
+    <color name="other">#DFD8CA</color>
+</resources>

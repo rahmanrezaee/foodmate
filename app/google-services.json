@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "791581979593",
+    "project_id": "food-mat",
+    "storage_bucket": "food-mat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791581979593:android:92cf70473482d83be5ae18",
+        "android_client_info": {
+          "package_name": "com.development.footmat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791581979593-llg0du8gf37g14t1f64polo77eeg3r05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.development.footmat",
+            "certificate_hash": "7136bbaca7454f1429d51a1965f97c20a8c491b0"
+          }
+        },
+        {
+          "client_id": "791581979593-v07vjhq2360k5srb30ifm1cl3k4kjh5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHFCMYxT7JAI8E-ScaRZLAvJsgvEvgTg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791581979593-v07vjhq2360k5srb30ifm1cl3k4kjh5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

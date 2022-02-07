@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".pages.DetailItemPage">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorOnPrimary"
+        android:elevation="10dp"
+        tools:ignore="MissingConstraints"/>
+
+
+       <ScrollView
+           android:layout_width="match_parent"
+
+           android:layout_height="wrap_content">
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:elevation="10dp"
+               app:cardCornerRadius="15dp"
+               android:layout_margin="10dp"
+
+               android:layout_height="wrap_content">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="vertical"
+
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:id="@+id/image_item"
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+               <TextView
+                   android:id="@+id/name_item"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Detail Item"
+                   android:textFontWeight="800"
+                   android:textSize="22dp"
+                   tools:layout_editor_absoluteX="210dp"
+                   tools:layout_editor_absoluteY="350dp" />
+               <LinearLayout
+                   android:background="@color/pink"
+                   android:layout_width="100dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_height="5dp"/>
+               <TextView
+                   android:id="@+id/description_item"
+                   android:layout_marginBottom="10dp"
+                   android:textDirection="rtl"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="description_item" />
+           </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+       </ScrollView>
+
+
+
+</LinearLayout>

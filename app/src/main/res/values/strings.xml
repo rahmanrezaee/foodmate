@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">فودمیت</string>
+    <string name="title_home">خانه</string>
+    <string name="aboutUs">درباره ما</string>
+    <string name="setting">تنظیمات</string>
+    <string name="favorite">علاقه مندیها</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">اشتراک</string>
+    <string name="theme">دیم</string>
+    <string name="foodmatString">فودمیت (خواص خوراکی ها)</string>
+    <string name="app_title">اپلیکشن فودمیت</string>
+    <string name="description_app">این اپلیکشن دارای لیست مواد غذایی و خواص آنها میباشد و بسیار ساده طراحی شده و شما میتواند به راحتی از آن استفاده کنید.</string>
+</resources>

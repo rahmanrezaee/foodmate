@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dark_mode"
+        app:showAsAction="always"
+        app:iconTint="?attr/colorPrimarySurface"
+        android:icon="@drawable/day"
+        android:title="@string/theme" />
+</menu>
