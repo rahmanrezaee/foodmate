@@ -211,11 +211,10 @@ public class DetailItemPage extends AppCompatActivity {
 
         Uri uri = Uri.fromFile(imagePath);
         Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-//        sharingIntent.setType("image/*");
-        String shareBody = "In Tweecher, My highest score with screen shot";
+        sharingIntent.setType("image/*");
         sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, itemFood.getTitle());
         sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, itemFood.getDescription());
-//        sharingIntent.putExtra(Intent.EXTRA_STREAM, uri);
+        sharingIntent.putExtra(Intent.EXTRA_STREAM, uri);
 
         startActivity(Intent.createChooser(sharingIntent, "Share via"));
     }
